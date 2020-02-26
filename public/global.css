@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	width: 400px;
+}
+
+.search {
+	margin: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.search__input {
+	width: 250px;
+	height: 22px;
+	margin-right: 10px;
+	outline: none;
+	border: 0;
+	border-bottom: 2px solid #999;
+	transition: 0.3s all;
+}
+
+.search__input:focus {
+	border-bottom-color: #000;
+}
+
+.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tabs__item {
+	padding: 10px;
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: 0.2s all;
+}
+
+.tabs__item.active {
+	background-color: rgb(237, 254, 244);
+}
+
+.tabs__item:hover {
+	background-color: rgb(237, 254, 244);
+}
+
+.tabs__favicon-wrap {
+	padding-right: 10px;
+	width: 16px;
+}
+
+.tabs__favicon {
+	width: 16px;
+}
+
+.tabs__info {
+	margin: 0;
+	max-width: 315px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.tab__title {
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.tab__url {
+	margin-top: 2px;
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #aaa;
+}
+
+.tab__remove {
+	margin-top: 2px;
+	margin-left: 10px;
+	background-color: transparent;
+	padding: 8px;
+    box-sizing: content-box;
+	border: 0;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	outline: none;
+}
+
+.tab__remove-icon {
+	width: 100%;
+	height: 100%;
+}
+
+.not-found {
+	margin: 15px;
+	color: #999;
+}

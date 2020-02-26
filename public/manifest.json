@@ -1,0 +1,12 @@
+{
+    "name": "Mr. Tabs - Manager of opened tabs",
+    "version": "1.0",
+    "permissions": [
+        "tabs"
+    ],
+    "description": "Simple opened tabs manager in a small pop-up",
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "manifest_version": 2
+}
