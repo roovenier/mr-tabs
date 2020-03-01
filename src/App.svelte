@@ -32,6 +32,7 @@
 
 	$: filtered_tabs = tabs.filter((tab) => tab.title.toLowerCase().indexOf(search_query.toLowerCase().trim()) !== -1);
 
+	chrome.tabs.onRemoved.addListener(get_tabs);
 	chrome.tabs.onUpdated.addListener(get_tabs);
 </script>
 
