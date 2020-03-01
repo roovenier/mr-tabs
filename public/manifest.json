@@ -8,5 +8,8 @@
     "browser_action": {
         "default_popup": "index.html"
     },
+    "icons": {
+        "128": "assets/icon_128.png"
+    },
     "manifest_version": 2
 }
